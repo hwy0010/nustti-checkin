@@ -2,7 +2,7 @@
 
 1. fork 到自己的 github 记得设置隐私
 
-2. 编辑 getid.py 在stuid中填入学号 如 
+2. 编辑 getid.py 在 stuid 中填入学号 如 
 
    ```
    stuid = "1909660000"
@@ -10,10 +10,10 @@
 
    
 
-3. 打开 Actions 执行 getid 在运行结果里找到获取的id
+3. 打开 Actions 执行 getid 在运行结果里找到获取的 id
 
 4. 编辑 checkin.py 填好参数
-  如   
+
 
   ```
   stuid = "1909660000"
@@ -42,5 +42,6 @@
   
 
 t5id是地区编码 可在此查询 http://www.mca.gov.cn/article/sj/xzqh/2020/20201201.html
+
 
 5. 运行一次actions中的CI 查看打卡是否成功 按照设置 每天10点左右会自动执行一次 
