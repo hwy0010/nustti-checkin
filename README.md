@@ -10,7 +10,7 @@
 
    
 
-3. 打开 Actions 执行 getid 在运行结果里找到获取的 id
+3. 打开 Actions 执行 getid 在运行结果里找到获取的 id （5位数字）
 
 4. 编辑 checkin.py 填好参数 如
 
