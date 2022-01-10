@@ -44,4 +44,4 @@
 t5id是地区编码 可在此查询 http://www.mca.gov.cn/article/sj/xzqh/2020/20201201.html
 
 
-5. 运行一次actions中的CI 查看打卡是否成功 按照设置 每天10点左右会自动执行一次 
+5. 运行一次 Actions 中的 CI 查看打卡是否成功 按照设置 每天10点左右会自动执行一次 
