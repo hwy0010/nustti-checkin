@@ -46,6 +46,5 @@ t5id是地区编码 可在此查询 http://www.mca.gov.cn/article/sj/xzqh/2020/2
 
 
 5. 运行一次 Actions 中的 CI 查看打卡是否成功 按照设置 每天10点左右会自动执行一次 
-
-打卡成功时 Actions 中会输出 "Serv_Outp:good_ok! "
+打卡成功时 Actions 运行结果中会出现 "Serv_Outp:good_ok! "
    
