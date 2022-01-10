@@ -9,7 +9,7 @@ stuid = ""
 id = ""
 province = ""
 city = ""
-distict = ""
+district = ""
 street = ""
 t5_1_id = ""
 t5_2_id = ""
@@ -53,7 +53,7 @@ data = {
   't5_3_id': t5_3_id,
   't5_1': province.encode("unicode_escape"),
   't5_2': city.encode("unicode_escape"),
-  't5_3': distict.encode("unicode_escape"),
+  't5_3': district.encode("unicode_escape"),
   't5_dz': street.encode("unicode_escape"),
   't10': '0',
   't6': '0',
@@ -67,7 +67,7 @@ data = {
   'info_ip_Address4': 'undefined',
   'info_ip_Address5': 'undefined',
   'info_ip_Address6': '',
-  'info_ip_Address1': province + ',' + city + ',' + distict,
+  'info_ip_Address1': province + ',' + city + ',' + district,
   'info_ip_Address2': '',
   'info_ip_Address3': '',
   'location1': '',
