@@ -12,10 +12,9 @@
 
 3. 打开 Actions 执行 getid 在运行结果里找到获取的 id
 
-4. 编辑 checkin.py 填好参数
+4. 编辑 checkin.py 填好参数 如
 
-   如
-
+   
 
   ```
   stuid = "1909660000"
