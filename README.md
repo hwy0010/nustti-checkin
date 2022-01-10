@@ -1,6 +1,6 @@
 ## 使用步骤
 
-1. fork 到自己的 github 记得设置隐私
+1. 点击 use this template 选择 private 创建自己的仓库
 
 2. 编辑 getid.py 在 stuid 中填入学号 如 
 
