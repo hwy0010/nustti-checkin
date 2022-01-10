@@ -21,7 +21,7 @@
   id = "35900"
   province = "江苏省"
   city = "泰州市"
-  distict = "海陵区"
+  district = "海陵区"
   street = '梅兰东路8号'
   t5_1_id = "320000"
   t5_2_id = "321200"
@@ -34,7 +34,7 @@
   | id       | 使用getid获取的id |
   | province | 省份              |
   | city     | 城市              |
-  | distict  | 区县              |
+  | district  | 区县              |
   | street   | 街道地址          |
   | t5_1_id  | 地区编码 后4位为0 |
   | t5_2_id  | 地区编码 后2位为0 |
