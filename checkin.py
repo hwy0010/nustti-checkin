@@ -11,9 +11,7 @@ province = ""
 city = ""
 district = ""
 street = ""
-t5_1_id = ""
-t5_2_id = ""
-t5_3_id = ""
+areacode = ""
 # parameters end
 
 # generate timestamp
@@ -48,9 +46,9 @@ data = {
   't2': '0',
   't3': '0',
   't4': '0',
-  't5_1_id': t5_1_id,
-  't5_2_id': t5_2_id,
-  't5_3_id': t5_3_id,
+  't5_1_id': areacode[:2].ljust(6,'0'),
+  't5_2_id': areacode[:4].ljust(6,'0'),
+  't5_3_id': areacode,
   't5_1': province.encode("unicode_escape"),
   't5_2': city.encode("unicode_escape"),
   't5_3': district.encode("unicode_escape"),
