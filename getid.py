@@ -49,7 +49,9 @@ def getid():
 if __name__ == '__main__':
     id = getid()
     if id!='00000':
-        print ("ID: "+id)
+        f = open('id','w')
+        f.write(id+'\n')
+        f.close()
     else:
         print ("学号错误")
         exit(0)
