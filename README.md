@@ -10,7 +10,7 @@
 
    
 
-3. 打开 Actions 执行 getid 点开运行结果中的 get stuid 获取 id （5位数字）
+3. 打开 Actions 执行 getid 点开运行结果 获取 id （5位数字）
 
 4. 在此查询地区编码 http://www.mca.gov.cn/article/sj/xzqh/2020/20201201.html 编辑 checkin.py 填好参数 如
 
