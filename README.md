@@ -10,9 +10,9 @@
 
    
 
-3. 打开 Actions 执行 getid 在运行结果里找到获取的 id （5位数字）
+3. 打开 Actions 执行 getid 点开运行结果中的 get stuid 获取 id （5位数字）
 
-4. 编辑 checkin.py 填好参数 如
+4. 在此查询地区编码 http://www.mca.gov.cn/article/sj/xzqh/2020/20201201.html 编辑 checkin.py 填好参数 如
 
    
 
@@ -23,9 +23,7 @@
   city = "泰州市"
   district = "海陵区"
   street = '梅兰东路8号'
-  t5_1_id = "320000"
-  t5_2_id = "321200"
-  t5_3_id = "321202"
+  areacode = "321202"
   ```
 
   | Key      | Value             |
@@ -36,15 +34,12 @@
   | city     | 城市              |
   | district  | 区县              |
   | street   | 街道地址          |
-  | t5_1_id  | 地区编码 后4位为0 |
-  | t5_2_id  | 地区编码 后2位为0 |
-  | t5_3_id  | 地区编码          |
+  | areacode  | 地区编码        |
+
 
   
 
-t5id是地区编码 可在此查询 http://www.mca.gov.cn/article/sj/xzqh/2020/20201201.html
 
-
-5. 运行一次 Actions 中的 CI 查看打卡是否成功 按照设置 每天10点左右会自动执行一次 
+5. 运行一次 Actions 中的 CI 查看打卡是否成功 按照设置 每天11点左右会自动执行一次 
 打卡成功时 Actions 运行结果中会出现 "Serv_Outp:good_ok! "
    
