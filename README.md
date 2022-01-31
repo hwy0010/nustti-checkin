@@ -22,7 +22,7 @@
   province = "江苏省"
   city = "泰州市"
   district = "海陵区"
-  street = '梅兰东路8号'
+  street = "梅兰东路8号"
   areacode = "321202"
   ```
 
