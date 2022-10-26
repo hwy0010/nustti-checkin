@@ -40,7 +40,7 @@ data = {
   't1': '36.0',
   't2': '0',
   't3': '0',
-  't4': '1',
+  't4': '0',
   't5_1_id': '320000',
   't5_2_id': '321200',
   't5_3_id': '321202',
@@ -49,7 +49,6 @@ data = {
   't5_3': '\\u6d77\\u9675\\u533a',
   't5_dz': '\\u6885\\u5170\\u4e1c\\u8def\\u38\\u53f7',
   't10': '0',
-  't13': '3',
   't6': '0',
   't7': '999',
   't7a': '999',
@@ -67,5 +66,5 @@ data = {
   'location2': '\\u2c\\u2c\\u2c\\u2c\\u2c\\u2c\\u2c\\u2c'
 }
 
-response = requests.post('http://zs.nustti.edu.cn/Wechat_Apps_StuMis/yqfk_HealthReport/def_serv.asp', headers=headers, params=params, data=data, verify=False)
+response = requests.post('https://zs.nustti.edu.cn/Wechat_Apps_StuMis/yqfk_HealthReport/def_serv.asp', headers=headers, params=params, data=data, verify=False)
 print(response.text)
